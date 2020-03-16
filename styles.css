@@ -1,0 +1,141 @@
+/* GLOBAL STYLES
+-------------------------------------------------- */
+/* Padding below the footer and lighter body text */
+
+body {
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+  color: #5a5a5a;
+}
+
+.navbar {
+  background-color: transparent;
+}
+
+header {
+  height: 100vh;
+  width: 100vw;
+  background-color: #4C0099;
+  background-image: linear-gradient(20deg, white 30%, transparent 50%);
+}
+
+main {
+  height: 100vh;
+  width: 100vw;
+  background-color: white;
+  background-image: linear-gradient(yellow 60%, transparent 50%);
+}
+
+img {
+  border-radius: 50%;
+}
+/* Center align the text within the three columns below the carousel */
+.marketing .col-lg-4 {
+  margin-top: 5rem;
+  margin-bottom: 1.5rem;
+  text-align: center;
+}
+.marketing h2 {
+  font-weight: 400;
+}
+.marketing .col-lg-4 p {
+  margin-right: .75rem;
+  margin-left: .75rem;
+}
+
+.marketing-text {
+  background-color: white;
+  background-image: linear-gradient(#4C0099 88%, transparent 50%)
+}
+
+hr { 
+  height: 3px;
+  background-color: #4C0099;
+  display: block;
+  margin-top: 0.5em;
+  margin-bottom: 0.5em;
+  margin-left: auto;
+  margin-right: auto;
+  border-style: inset;
+  border-width: 1px;
+} 
+
+.hr-2 { 
+  height: 3px;
+  background-color: red;
+  display: block;
+  margin-top: 0.5em;
+  margin-bottom: 0.5em;
+  margin-left: auto;
+  margin-right: auto;
+  border-style: inset;
+  border-width: 1px;
+} 
+
+.logo {
+  height: 50vh;
+  width: 100vw;
+  background-color: red;
+  background-image: linear-gradient(#4C0099 30%, transparent 50%);
+}
+
+.logo-button {
+  background-color: #4C0099;
+  width: 100%;
+}
+
+/* SOCIAL MEDIA ICONS
+-------------------------------------------------- */
+.fa:hover {
+  opacity: 0.7;
+}
+
+.fa-facebook {
+  border-radius: 50%;
+  background: #3B5998;
+  color: white;
+}
+
+.fa-twitter {
+  border-radius: 50%;
+  background: #55ACEE;
+  color: white;
+}
+
+.fa-linkedin {
+  border-radius: 50%;
+  background: #007bb5;
+  color: white;
+}
+
+/* RESPONSIVE CSS
+-------------------------------------------------- */
+
+@media (min-width: 40em) {
+  /* Bump up size of carousel content */
+
+  .featurette-heading {
+    font-size: 50px;
+  }
+}
+
+@media (min-width: 62em) {
+  .featurette-heading {
+    margin-top: 7rem;
+  }
+}
+
+.bd-placeholder-img {
+  font-size: 1.125rem;
+  text-anchor: middle;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+@media (min-width: 768px) {
+  .bd-placeholder-img-lg {
+    font-size: 3.5rem;
+  }
+}
